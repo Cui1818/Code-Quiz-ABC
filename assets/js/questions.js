@@ -1,6 +1,4 @@
-var questionIndex = 0;
-
-questions = [
+var questions = [
     {
       question: "What does HTML stand for?",
       responses: [
