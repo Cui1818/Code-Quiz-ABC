@@ -1,18 +1,18 @@
 var questions = [
     {
       question: "What does HTML stand for?",
-      responses: [
-        "Hamburger Text McDonalds Large",
-        "How To Meet Ladies",
+       choices: [
+        "Backend Development",
+        "Cascading Style Sheets",
         "Hyper Text Markup Language",
       ],
       answer: "Hyper Text Markup Language",
     },
     {
       question: "What does CSS stand for?",
-      responses: [
-        "Counter Strike - Source",
-        "Chicken Sandwich Supreme",
+      choices: [
+        "Application Programming Interface",
+        "Hyper Text Markup Language",
         "Cascading Style Sheets",
       ],
       answer: "Cascading Style Sheets",
@@ -20,7 +20,7 @@ var questions = [
     {
       question:
         "Making a website work on all screen sizes is called ______________",
-      responses: [
+      choices: [
         "Responsive Design",
         "Unresponsive Design",
         "Backend Development",
@@ -30,7 +30,7 @@ var questions = [
     },
     {
       question: "What is an API?",
-      responses: [
+      choices: [
         "Object.freeze(num);",
         "num.mutable = false;",
         "Application Programming Interface",
@@ -40,13 +40,13 @@ var questions = [
     
     {
       question: "Primitive Types are immutable",
-      responses: ["True", "False"],
+      choices: ["True", "False"],
       answer: "True",
     },
     {
       question:
         "Which one of the following is not best practice when declaring a variable",
-      responses: [
+      choices: [
         "let num = 2;",
         "var num = 2;",
         "const NUM = 2;",
