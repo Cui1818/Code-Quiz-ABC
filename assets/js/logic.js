@@ -13,11 +13,11 @@ var questionsIndex = 0;
 var currentQuestion = questions[questionsIndex];
 //timer 
 var timeEl = document.getElementById("time");
-var WinCounter = 0;
-var loseCounter = 0;
-var timevalue = 75;
-var score = 0; 
-var timercounter;
+//var WinCounter = 0;
+//var loseCounter = 0;
+//var timevalue = 15;
+//var score = 0; 
+//var timercounter;
 
 // highScoresEl.setAttribute("color:purple");
 
@@ -32,7 +32,9 @@ start.addEventListener("click", function(event){
     startTimer();
 });
 
-//HOW can set up timer = 75 minutes?
+
+var startTimer = localStorage.getItem("time")
+
 function startTimer(){
  // timer = setInterval(function){
   //  timeCount --;
